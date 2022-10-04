@@ -1,0 +1,4 @@
+- name: A
+  href: api-a/
+- name: B
+  href: api-b/

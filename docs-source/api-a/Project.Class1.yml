@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: Project.Class1
+  commentId: T:Project.Class1
+  id: Class1
+  parent: Project
+  children:
+  - Project.Class1.Name
+  langs:
+  - csharp
+  - vb
+  name: Class1
+  nameWithType: Class1
+  fullName: Project.Class1
+  type: Class
+  source:
+    remote:
+      path: /Users/frederikprijck/Projects/Project/ProjectA/Class1.cs
+    id: Class1
+    path: ProjectA/Class1.cs
+    startLine: 4
+  assemblies:
+  - ProjectA
+  namespace: Project
+  syntax:
+    content: 'public class Class1 : object'
+    content.vb: >-
+      Public Class Class1
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Project.Class1.Name
+  commentId: P:Project.Class1.Name
+  id: Name
+  parent: Project.Class1
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Class1.Name
+  fullName: Project.Class1.Name
+  type: Property
+  source:
+    remote:
+      path: /Users/frederikprijck/Projects/Project/ProjectA/Class1.cs
+    id: Name
+    path: ProjectA/Class1.cs
+    startLine: 6
+  assemblies:
+  - ProjectA
+  namespace: Project
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Project.Class1.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Project
+  commentId: N:Project
+  name: Project
+  nameWithType: Project
+  fullName: Project
+- uid: Project.Class1.Name*
+  commentId: Overload:Project.Class1.Name
+  name: Name
+  nameWithType: Class1.Name
+  fullName: Project.Class1.Name
+- uid: System.String
+  commentId: '!:System.String'
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

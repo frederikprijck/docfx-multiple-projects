@@ -1,0 +1,158 @@
+{
+  "homepages": [],
+  "source_base_path": "/Users/frederikprijck/Projects/Project/docs-source",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api-a/Project.Class1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-a/Project.Class1.html",
+          "hash": "IwM00ZogrLpopMlYX3+6VRL1gAOUsp/KzoG1EnyMzKo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-a/Project.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-a/Project.html",
+          "hash": "REoNB5QDd6JkLKe+Olu7vA3RBIcRP7stWcLYymln8Q8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api-a/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-a/toc.html",
+          "hash": "4W1bhrxY4bmp9rCzB+vGZWFcCuYxRFi1r+Xaj85aDN0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-b/Project.Class1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-b/Project.Class1.html",
+          "hash": "vvqycskcqUq7nFoRIfgvPjr6wwX4VJ8HBfNIX9tkguU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api-b/Project.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-b/Project.html",
+          "hash": "4jkH0D8QGOsqOZR+3XAAJVI44omCijLP7IzB17nlGbg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api-b/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-b/toc.html",
+          "hash": "Jo0SjlQTVYpZ7CFe5hk9r2DgWYFaHOY/slRj7O9iNpU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "TkNWPFAJlW8Bj6XMZN8qhoPEuiUWgzo8LAEFu9w70cY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "rOBwRA8YUGMdkMTN0Dh7tQjPqjjMwqekT6rVZhTujjM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

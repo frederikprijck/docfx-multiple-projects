@@ -1,0 +1,41 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Project
+  name: Project
+  href: api-a/Project.html
+  commentId: N:Project
+  fullName: Project
+  nameWithType: Project
+- uid: Project.Class1
+  name: Class1
+  href: api-a/Project.Class1.html
+  commentId: T:Project.Class1
+  fullName: Project.Class1
+  nameWithType: Class1
+- uid: Project.Class1.Id
+  name: Id
+  href: api-b/Project.Class1.html#Project_Class1_Id
+  commentId: P:Project.Class1.Id
+  fullName: Project.Class1.Id
+  nameWithType: Class1.Id
+- uid: Project.Class1.Id*
+  name: Id
+  href: api-b/Project.Class1.html#Project_Class1_Id_
+  commentId: Overload:Project.Class1.Id
+  isSpec: "True"
+  fullName: Project.Class1.Id
+  nameWithType: Class1.Id
+- uid: Project.Class1.Name
+  name: Name
+  href: api-a/Project.Class1.html#Project_Class1_Name
+  commentId: P:Project.Class1.Name
+  fullName: Project.Class1.Name
+  nameWithType: Class1.Name
+- uid: Project.Class1.Name*
+  name: Name
+  href: api-a/Project.Class1.html#Project_Class1_Name_
+  commentId: Overload:Project.Class1.Name
+  isSpec: "True"
+  fullName: Project.Class1.Name
+  nameWithType: Class1.Name

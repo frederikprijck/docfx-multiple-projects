@@ -1,0 +1,59 @@
+{
+    "metadata": [
+      {
+        "src": [
+          {
+            "files": [
+              "**.csproj"
+            ],
+            "exclude": [
+              "**/obj/**",
+              "**/bin/**",
+              "_site/**"
+            ],
+            "cwd": "../ProjectA"
+          }
+        ],
+        "dest": "api-a"
+      },
+      {
+        "src": [
+          {
+            "files": [
+              "**.csproj"
+            ],
+            "exclude": [
+              "**/obj/**",
+              "**/bin/**",
+              "_site/**"
+            ],
+            "cwd": "../ProjectB"
+          }
+        ],
+        "dest": "api-b"
+      }
+    ],
+    "build": {
+      "content": [
+        {
+          "files": [
+            "api-a/**.yml",
+            "api-b/**.yml"
+          ]
+        },
+        {
+          "files": [
+            "toc.yml",
+            "*.md"
+          ],
+          "exclude": [
+            "obj/**"
+          ]
+        }
+      ],
+      "dest": "../docs",
+      "template": [
+        "default"
+      ]
+    }
+  }
